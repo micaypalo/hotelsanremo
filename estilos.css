@@ -1,0 +1,231 @@
+body{
+		margin: 0;
+}
+header{
+	width:100%;
+	height:100px;
+	background:linear-gradient(black, #531008);
+    display:flex;
+}
+/*.logo{
+	width:30%;
+	height:auto;
+	/* background-color:red; */
+}
+.foto{
+	/* background-color:black; */
+	height:auto;
+	width:100%;
+}
+
+nav{
+	width:80%;
+	height:auto;
+	/* background-color:red; */
+	display:flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+.tarjetas{
+	height:auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+	
+}
+.tar{
+	width:25%;
+	height:auto;
+	/*background-color:orange;*/
+	margin-bottom:2%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	border-radius:10px;
+	border-color:#a0a3a1;
+	border-width:1px;
+	border-style:solid;
+	padding:1%;
+
+}
+.texto{
+	/*background-color:yellow;*/
+	height:auto;
+	width:100%;
+	display:flex;
+	align-items: center;
+	flex-direction:column;
+}
+footer{
+	background:linear-gradient(#531008, black);
+	height:auto;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+}
+
+.logofooter{
+	width:7%;
+	height:auto;
+	display:flex;
+	justify-content: center;
+    align-items: center;
+	
+}
+
+.logonav img{  /* adaptamos el logo a su padre .logo */
+	width:90%;
+	height:auto;
+	
+}
+.contactos{
+	width:40%;
+	height:auto;
+	margin:auto;
+	margin-left:15px;
+	
+}
+
+.iconos{
+	width:40%;
+	height:auto;
+	margin:auto;
+}
+
+main{
+	margin:3%;
+}
+
+.foto img{
+	width:100%;
+    height:auto;	
+}
+
+/*-------------------------------------------------*/
+nav p{
+	color:#cbae8b;
+}
+
+nav a:link, nav a:visited{
+	text-decoration:none;
+	color:#b99c72;
+}
+
+footer p{
+	color:white;
+}
+h2{
+	color:#906612;
+	text-align:center;
+	
+}
+
+p{
+	font-size: 17px;
+	text-align:justify;
+	line-height:30px;
+	color:#5c5c5c;
+}
+h1{
+	color:#69140a;
+}
+
+/*--------------------------------HABITACIONES---------------------------------*/
+
+.padre{
+	display:flex;
+	flex-direction:row;
+}
+
+.foto1 img{
+	width:95%;
+	height:auto;
+	margin-left:2px;
+	border-radius:10px;
+	margin-bottom:30px;
+}
+.texto1{
+	
+	
+	width:50%;
+	height:auto;
+}
+
+ul{
+	font-size: 17px;
+	text-align:justify;
+	line-height:30px;
+	color:#5c5c5c;
+}
+
+
+/*media quare*/
+
+
+									@media screen and (max-width:800px){
+  header, nav, main, footer{
+	 display:flex;
+	 flex-direction:column;
+  }
+  body{
+	  margin: 0;
+  }
+  header{
+	  width: 100%;
+	  height: auto;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  padding-bottom: 5%;
+  }
+  nav a:link{
+	  padding-bottom: 2%;
+	  font-size: 18px;
+	  line-height: 22px;
+  } 
+  main{
+	  width: 100%;
+	  height: auto;
+  }
+  .tarjetas{
+	  width: 100%;
+	  height: auto;
+	  display:flex;
+	  flex-direction: column;
+  }
+  .tar{
+	   width: 90%;
+	  height: auto;
+  }
+  h1, h2{
+	text-align:center;
+  }
+  footer{
+	  width: 100%;
+	  height: auto;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+  }  
+  .contactos, .iconos{
+  width:90%;
+  height:auto;
+  text-align:center;
+  }
+  .contactos p{
+	  text-align: center;
+  }
+  .padre{
+	   width: 100%;
+	  height: auto;
+	  display:flex;
+	  flex-direction: column;
+  }
+.texto1{
+	height: auto;
+	width: 100%;
+	margin: auto;
+}  
+}
